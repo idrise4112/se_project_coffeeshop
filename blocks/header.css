@@ -24,6 +24,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 72px;
+  z-index: 1;
 }
 
 .header__description {
@@ -60,4 +61,10 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__subtitle {
+  z-index: 1;
 }

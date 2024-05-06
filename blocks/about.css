@@ -2,9 +2,12 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
-  padding-top: 119px;
+  padding-top: 100px;
   padding-right: 80px;
   padding-bottom: 173px;
+  margin: 0;
+  display: flex;
+  justify-content: ;
 }
 
 .about__circle {
@@ -46,6 +49,8 @@
   color: #ffffff;
   z-index: 2;
   position: relative;
+  display: flex;
+  max-width: 251px;
 }
 
 .about__content {
@@ -60,7 +65,9 @@
 }
 
 .about__paragraph {
-  gap: 20px;
   max-width: 660px;
   float: right;
+  padding-top: 119px;
+  padding-right: 80px;
+  padding-bottom: 173px;
 }

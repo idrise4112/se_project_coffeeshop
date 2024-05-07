@@ -17,12 +17,11 @@
 }
 
 .card__list-item {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif" "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 16px;
   display: flex;
 }
 
@@ -30,6 +29,11 @@
   width: 540px;
   display: flex;
   flex-direction: column;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid black;
 }
 
 .card__list-divider {

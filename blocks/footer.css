@@ -10,6 +10,7 @@
 
 .footer__social-heading {
   color: #ffffff;
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -26,6 +27,7 @@
 .footer__copyright {
   margin-bottom: 60px;
   color: #ffffff;
+  margin-top: 108px;
 }
 
 .footer__content {
@@ -37,4 +39,6 @@
 
 .footer__social-link {
   color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 16px;
 }

@@ -5,14 +5,18 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  position: relative;
 }
 
 .header__image {
   position: absolute;
-  max-width: 646px;
-  max-height: 568px;
+  width: 646px;
+  height: 568px;
   right: 5px;
   top: 124px;
+  z-index: -1;
+  box-sizing: border-box;
 }
 
 .header__title {

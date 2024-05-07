@@ -2,12 +2,10 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
-  padding-top: 100px;
-  padding-right: 80px;
-  padding-bottom: 173px;
+  padding: 100px 80px 173px;
   margin: 0;
   display: flex;
-  justify-content: ;
+  justify-content: space-between;
 }
 
 .about__circle {
@@ -22,11 +20,11 @@
 }
 
 .about__circle_animation_blured {
-  top: 0;
-  left: 0;
   transform-origin: center;
   animation: pulsate 1.3s ease-in-out 0s infinite;
+  position: static;
 }
+
 @keyframes pulsate {
   0% {
     opacity: 0;
@@ -41,7 +39,7 @@
 }
 
 .about__title {
-  font-family: "Inter";
+  font-family: "Inter" Arial, Helvetica, "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -51,23 +49,22 @@
   position: relative;
   display: flex;
   max-width: 251px;
+  margin: 0;
 }
 
 .about__content {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 19px;
 }
 
 .about__paragraph {
   max-width: 660px;
-  float: right;
-  padding-top: 119px;
-  padding-right: 80px;
-  padding-bottom: 173px;
+  margin: 0;
+}
+
+.about__paragraph:not(:last-child) {
+  margin-bottom: 20px;
 }

@@ -1,5 +1,5 @@
 .card__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, "sans-serif";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -17,7 +17,7 @@
 }
 
 .card__list-item {
-  font-family: "Noto Serif" "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -29,11 +29,6 @@
   width: 540px;
   display: flex;
   flex-direction: column;
-}
-
-.card__list-divider {
-  flex-grow: 1;
-  border-bottom: 1px solid black;
 }
 
 .card__list-divider {

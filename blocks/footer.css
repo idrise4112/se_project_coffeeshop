@@ -22,12 +22,16 @@
 .footer__list-item {
   list-style-type: none;
   color: #ffffff;
+  margin: 0;
 }
 
 .footer__copyright {
-  margin-bottom: 60px;
+  margin-bottom: 0;
   color: #ffffff;
   margin-top: 108px;
+  font-family: "Inter", Arial, Helvetica, "sans-serif";
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__content {
@@ -37,8 +41,17 @@
   align-items: flex-start;
 }
 
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin: 0 10px 0 0;
+}
+
 .footer__social-link {
   color: #ffffff;
   text-decoration: none;
+}
+
+.footer__list-item:not(:last-child) {
   margin-bottom: 16px;
 }

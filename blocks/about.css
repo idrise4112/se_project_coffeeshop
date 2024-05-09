@@ -22,7 +22,6 @@
 .about__circle_animation_blured {
   transform-origin: center;
   animation: pulsate 1.3s ease-in-out 0s infinite;
-  position: static;
 }
 
 @keyframes pulsate {
@@ -39,7 +38,7 @@
 }
 
 .about__title {
-  font-family: "Inter" Arial, Helvetica, "sans-serif";
+  font-family: "Inter", Arial, Helvetica, "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;

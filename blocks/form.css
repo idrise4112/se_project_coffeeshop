@@ -20,7 +20,7 @@
   line-height: 20px;
   height: 60px;
   padding-left: 8px;
-  color: #838383;
+  border-color: #838383;
   border-width: 1px;
   border-style: solid;
 }
@@ -28,7 +28,6 @@
 .form__button {
   width: 100%;
   margin-bottom: 32px;
-  margin-top: 32px;
   font-family: "Inter", Arial, Helvetica, "sans-serif";
   font-style: normal;
   font-weight: 500;
